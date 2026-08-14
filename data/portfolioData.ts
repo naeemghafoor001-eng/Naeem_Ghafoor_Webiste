@@ -10,6 +10,7 @@ export interface PortfolioProject {
     | "International Relations"
     | "Presentations"
     | "Digital Projects";
+  displayCategory?: string;
   summary: string;
   problem: string;
   approach: string;
@@ -36,10 +37,11 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     id: "llm-cybersecurity-risk",
     title: "Security Risks in Large Language Model Applications",
     category: "Data & AI",
-    summary: "Framework-based cybersecurity dissertation analysing generative AI and LLM application risks using OWASP for LLMs and NIST AI Risk Management Framework.",
+    displayCategory: "AI & Cybersecurity",
+    summary: "Framework-based research examining LLM application security through OWASP and NIST, including prompt injection, information disclosure, RAG risks and agentic AI governance.",
     problem: "Rapid deployment of LLMs introduces novel attack vectors like prompt injection, sensitive data leakage, and excessive agency.",
     approach: "Systematic mapping of threat taxonomy, evaluation of RAG architecture vulnerabilities, and formulation of governance guardrails.",
-    tools: ["NIST AI RMF", "OWASP Top 10 for LLMs", "Cybersecurity Frameworks", "Risk Assessment"],
+    tools: ["OWASP", "NIST", "Secondary Research"],
     deliverable: "Dissertation & Executive Policy Briefing",
     outcome: "Established actionable mitigation matrices for enterprise LLM integrations.",
     highlighted: true,
@@ -48,10 +50,11 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     id: "evidence-dashboard-python",
     title: "Evidence-Based Organisational Dashboard",
     category: "Digital Projects",
-    summary: "Design Science Research project translating data visualisation, human cognition, and usability research into an interactive Python Dash prototype.",
+    displayCategory: "Data & Digital",
+    summary: "Design Science Research project translating visualisation, cognition and usability evidence into an interactive Python dashboard prototype.",
     problem: "Executive decision-makers face cognitive overload from unstructured administrative reports and static tabular data.",
     approach: "Built modular web interactive dashboards using Python, Pandas, and Plotly, grounded in visual perception principles and heuristic evaluation.",
-    tools: ["Python", "Dash", "Plotly", "Pandas", "Heuristic Evaluation"],
+    tools: ["Python", "Dash", "Plotly", "Pandas"],
     deliverable: "Interactive Web Dashboard Prototype & Technical Documentation",
     outcome: "Reduced key operational metric analysis time by over 60% in user testing scenarios.",
     highlighted: true,
@@ -70,12 +73,13 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   },
   {
     id: "hs2-risk-management",
-    title: "HS2 Euston Station Risk & Change Management",
+    title: "HS2 Euston Risk & Change Management",
     category: "Construction & Project Management",
-    summary: "Project-management case study addressing change control, risk registers, RAMS, stakeholder complexity, and megaproject infrastructure delivery.",
+    displayCategory: "Project Management",
+    summary: "Infrastructure project analysis covering change control, stakeholder complexity, risk registers, safety considerations and programme governance.",
     problem: "Major rail infrastructure projects suffer severe delay risks and scope creep due to complex stakeholder ecosystems.",
     approach: "Mapped formal Change Control Procedures, developed quantitative Risk Assessment Matrices, and synthesized mitigation protocols.",
-    tools: ["Project Management", "RAMS Framework", "Risk Analysis", "Stakeholder Mapping"],
+    tools: ["Risk Management", "Change Control", "Project Analysis"],
     deliverable: "Strategic Project Management Report",
     outcome: "Formulated robust risk register and mitigation protocols tailored to public transport megaprojects.",
     highlighted: false,
@@ -154,12 +158,13 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
   },
   {
     id: "parolee-employment-barriers",
-    title: "Employment Challenges for Parolees in Punjab",
+    title: "Employment & Reintegration of Parolees",
     category: "Sociology & Social Policy",
-    summary: "Mixed-methods empirical study investigating post-release employment, social stigma, legal hurdles, and rehabilitation outcomes for parolees.",
+    displayCategory: "Social Research",
+    summary: "Mixed-method research examining employment barriers, reintegration, structural challenges and parole outcomes in Punjab.",
     problem: "High recidivism rates linked to systemic employment exclusion and lack of vocational reintegration pathways.",
     approach: "Combined quantitative administrative tracking data with qualitative interview transcript coding of offender reintegration metrics.",
-    tools: ["SPSS", "Qualitative Thematic Analysis", "Correctional Research"],
+    tools: ["Mixed Methods", "Survey", "Interviews", "Statistical Analysis"],
     deliverable: "Empirical Policy Study & Departmental Report",
     outcome: "Generated actionable policy recommendations for vocational training within probation and parole services.",
     highlighted: true,

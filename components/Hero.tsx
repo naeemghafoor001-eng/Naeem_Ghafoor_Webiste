@@ -44,7 +44,7 @@ export const Hero: React.FC = () => {
 
             {/* Supporting Paragraph */}
             <p className="text-sm sm:text-base text-bodytext leading-relaxed">
-              Professional support for researchers, civil servants, businesses, professionals and international clients across research, policy, data analysis, presentations, AI and digital development.
+              Supporting researchers, public professionals, businesses and international clients with research, policy analysis, data, presentations, AI workflows and digital solutions.
             </p>
 
             {/* Action Buttons Group */}
@@ -114,7 +114,7 @@ export const Hero: React.FC = () => {
                 {/* Subtle Experience Tag Badge */}
                 <div className="absolute top-3 left-3 bg-navy/90 backdrop-blur-md text-white text-[11px] font-medium px-3 py-1.5 rounded-md shadow-sm border border-white/10 flex items-center gap-1.5">
                   <Shield className="w-3.5 h-3.5 text-emerald-accent" />
-                  <span>Public-Sector &amp; Academic Professional</span>
+                  <span>Public Policy &bull; Research &bull; Data &bull; Digital</span>
                 </div>
               </div>
 
@@ -132,7 +132,7 @@ export const Hero: React.FC = () => {
                   Research, Policy &amp; Digital Solutions
                 </p>
                 <p className="text-xs text-bodytext mt-2 leading-relaxed">
-                  Public-sector professional &bull; Researcher &bull; Digital practitioner
+                  Researcher &bull; Public-Sector Professional &bull; Digital Practitioner
                 </p>
               </div>
 

@@ -8,32 +8,32 @@ export const WhoIWorkWith: React.FC = () => {
     {
       icon: GraduationCap,
       title: "Researchers & Students",
-      description: "Postgraduate research support, dissertations, thesis methodology, analytical work, and defence presentation decks.",
+      description: "Postgraduate research, dissertations, analysis, presentations and professional academic support.",
     },
     {
       icon: Landmark,
-      title: "Civil Servants",
-      description: "Executive research papers, policy briefs, syndicate project reports, and briefing decks for CTP, MCMC, and SMC courses.",
+      title: "Civil Servants & Public Professionals",
+      description: "Research, policy papers, briefing material, executive assignments and professional presentations.",
     },
     {
       icon: Building2,
       title: "Businesses",
-      description: "Analytical reports, ESG sustainability evaluation, executive slide decks, and data dashboard solutions.",
+      description: "Research, ESG analysis, reports, presentations, data and digital solutions.",
     },
     {
       icon: Briefcase,
       title: "Professionals & Consultants",
-      description: "Technical research synthesis, quantitative data processing, administrative write-ups, and slide deck design.",
+      description: "Research assistance, analytical reports, documentation and visual communication.",
     },
     {
       icon: Users,
       title: "NGOs & Organisations",
-      description: "Baseline study reports, social policy evaluations, thematic qualitative analysis, and institutional briefing packs.",
+      description: "Policy research, programme evaluation, social research and professional documentation.",
     },
     {
       icon: Globe2,
       title: "International Clients",
-      description: "Seamless remote research, data analysis, and digital solutions for clients in the UK, UAE, and worldwide.",
+      description: "Remote professional support for clients in Pakistan, the UK and international markets.",
     },
   ];
 

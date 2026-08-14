@@ -15,12 +15,19 @@ export const ExecutiveSupportSection: React.FC = () => {
   ];
 
   const executiveServices = [
-    "Policy Papers & Strategic Write-ups",
-    "Individual & Syndicate Research Papers",
-    "Current Issue Briefing Notes",
-    "Executive Presentation Decks & Speaker Notes",
-    "Training Assignments & Case Analysis",
-    "Post-Training Documentation & Reports",
+    "Policy papers",
+    "Individual Research Papers",
+    "Current issue write-ups",
+    "Analytical briefs",
+    "Presentations & slide decks",
+    "Speaker notes & briefing scripts",
+    "Syndicate research support",
+    "Executive summaries",
+    "Case study analysis",
+    "Training reports",
+    "Post-training documentation",
+    "Briefing packs",
+    "Professional document formatting",
   ];
 
   return (

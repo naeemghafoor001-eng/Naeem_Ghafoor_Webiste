@@ -8,7 +8,7 @@ export const CredibilityStrip: React.FC = () => {
     {
       icon: GraduationCap,
       title: "M.Phil Sociology",
-      subtitle: "Academic Rigour",
+      subtitle: "Academic Foundation",
     },
     {
       icon: Landmark,
@@ -18,22 +18,22 @@ export const CredibilityStrip: React.FC = () => {
     {
       icon: Binary,
       title: "R • Python • SPSS",
-      subtitle: "Quantitative Analytics",
+      subtitle: "Data & Analytics",
     },
     {
       icon: Cpu,
-      title: "AI & Digital Solutions",
-      subtitle: "Workflow Integration",
+      title: "AI & Digital",
+      subtitle: "Workflow Solutions",
     },
     {
       icon: Presentation,
       title: "Professional Presentations",
-      subtitle: "Executive Decks",
+      subtitle: "Executive Communication",
     },
     {
       icon: ShieldCheck,
-      title: "Public-Sector Background",
-      subtitle: "Institutional Standards",
+      title: "Public-Sector Experience",
+      subtitle: "Institutional Exposure",
     },
   ];
 

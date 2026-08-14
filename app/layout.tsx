@@ -32,11 +32,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Naeem Ghafoor" }],
   creator: "Naeem Ghafoor",
-  metadataBase: new URL("https://naeem-ghafoor-website.vercel.app"),
+  metadataBase: new URL("https://naeemghafoor.vercel.app"),
   openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://naeem-ghafoor-website.vercel.app",
+    url: "https://naeemghafoor.vercel.app",
     title: "Naeem Ghafoor | Research, Policy & Digital Solutions",
     description:
       "Turning complex ideas, evidence and data into clear research, professional reports, presentations and practical digital solutions.",

@@ -45,7 +45,7 @@ export const AboutSnapshot: React.FC = () => {
               </h2>
 
               <p className="text-bodytext text-base sm:text-lg leading-relaxed">
-                Naeem Ghafoor is an M.Phil Sociology researcher and public-sector professional with experience in policy, analytical reporting, research, executive communication, data analysis and digital transformation. His work combines public administration experience with modern research and technology tools.
+                Naeem Ghafoor is an M.Phil Sociology researcher and public-sector professional with experience in policy, analytical reporting, executive communication, research, data analysis and digital transformation. His work combines practical public administration exposure with modern research, analytical and technology tools to support complex professional and academic requirements.
               </p>
 
               <div className="pt-2">

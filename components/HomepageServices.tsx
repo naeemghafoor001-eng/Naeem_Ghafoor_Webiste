@@ -19,43 +19,49 @@ export const HomepageServices: React.FC = () => {
       icon: GraduationCap,
       title: "Research & Academic Support",
       sentence:
-        "Postgraduate thesis methodology, research guidance, literature synthesis, and academic editing.",
+        "Research guidance, literature reviews, methodology, dissertations, assignments, editing and academic presentation support.",
       href: "/services#research-academic-support",
+      ctaText: "Explore Research Support →",
     },
     {
       icon: FileText,
       title: "Policy & Analytical Reports",
       sentence:
-        "Evidence-based policy briefs, socio-economic analysis, executive summaries, and decision reports.",
+        "Policy briefs, analytical reports, governance studies, executive summaries and evidence-based recommendations.",
       href: "/services#policy-research-analytical-reports",
+      ctaText: "Explore Policy Services →",
     },
     {
       icon: Shield,
       title: "Executive & Civil Service Support",
       sentence:
-        "Tailored research papers, syndicate project briefings, current affairs notes, and course decks.",
+        "Professional research and presentation support for CTP, MCMC, SMC, NMC and executive training programmes.",
       href: "/executive-support",
+      ctaText: "Explore Executive Support →",
     },
     {
       icon: BarChart3,
       title: "Data Analysis & Research Methods",
       sentence:
-        "Statistical modeling, quantitative survey analysis, and empirical reporting in SPSS, R, and Python.",
+        "SPSS, R, Python, Excel, survey analysis, statistical reporting, thematic analysis and visualisation.",
       href: "/services#data-analysis-research-methods",
+      ctaText: "Explore Data Services →",
     },
     {
       icon: Presentation,
       title: "Presentations & Professional Documents",
       sentence:
-        "High-impact executive slide decks, visual reports, and professional document formatting.",
+        "PowerPoint presentations, executive decks, reports, Word formatting, speaker notes and professional documentation.",
       href: "/services#presentations-professional-documents",
+      ctaText: "Explore Presentation Services →",
     },
     {
       icon: Cpu,
       title: "AI & Digital Solutions",
       sentence:
-        "Practical AI workflow integration, document intelligence tools, Python dashboards, and web development.",
+        "AI agents, workflow automation, dashboards, research tools, web solutions and digital prototypes.",
       href: "/ai-digital-solutions",
+      ctaText: "Explore Digital Solutions →",
     },
   ];
 
@@ -102,8 +108,7 @@ export const HomepageServices: React.FC = () => {
                     href={service.href}
                     className="inline-flex items-center gap-1.5 text-xs font-bold text-forest group-hover:text-forest-hover transition-colors"
                   >
-                    <span>Explore Service</span>
-                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                    <span>{service.ctaText}</span>
                   </Link>
                 </div>
               </div>

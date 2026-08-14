@@ -114,7 +114,7 @@ export const AboutSection: React.FC = () => {
                 {education.map((edu, idx) => (
                   <div
                     key={idx}
-                    className="p-3.5 rounded-xl bg-lightgrey/60 hover:bg-softgreen/50 border border-bordergrey/60 transition-colors flex items-center justify-between"
+                    className="p-3.5 rounded-xl bg-lightgrey/60 border border-bordergrey/60 transition-colors flex items-center justify-between"
                   >
                     <div>
                       <h4 className="font-serif font-bold text-sm text-navy">
@@ -122,9 +122,6 @@ export const AboutSection: React.FC = () => {
                       </h4>
                       <p className="text-xs text-bodytext">{edu.institution}</p>
                     </div>
-                    <span className="text-[11px] font-semibold px-2.5 py-1 rounded bg-white text-forest border border-bordergrey">
-                      Verified
-                    </span>
                   </div>
                 ))}
               </div>

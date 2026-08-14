@@ -194,7 +194,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ defaultService }) => {
                     Thank You! Your Enquiry Has Been Received.
                   </h3>
                   <p className="text-sm text-bodytext max-w-md mx-auto leading-relaxed">
-                    Thank you. Your enquiry has been received. I will review your requirements and reply shortly. You may also contact me directly through WhatsApp for a faster discussion.
+                    Thank you. Your enquiry has been received. You may also contact me through WhatsApp for a faster discussion.
                   </p>
                   
                   <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3">

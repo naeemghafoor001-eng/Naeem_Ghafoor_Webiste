@@ -96,7 +96,7 @@ export const PortfolioSection: React.FC<PortfolioSectionProps> = ({ featuredOnly
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
                   <span className="text-[11px] font-bold uppercase tracking-wider text-forest bg-softgreen px-2.5 py-1 rounded border border-softgreen-border">
-                    {project.category}
+                    {project.displayCategory || project.category}
                   </span>
                   <span className="text-[11px] font-medium text-bodytext/80">
                     {project.deliverable.split("&")[0]}
